@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f6f7f4;
+}
+.container{
+   height: 700px;
+    width: 700px;
+    position: relative;
+    left: 28%;
+    top: 20px;
+}
+.likes{
+  border: none;
+  height: 160px;
+  width: 250px;
+  position: absolute;
+  
+  top: 50px;
+}
+.num-likes{
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(150, 146, 113);
+}
+.parr-likes{
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    height: 50px;
+    width: 120px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.followers{
+    border: none;
+  height: 160px;
+  width: 250px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+.num-followers{
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(150, 146, 113);
+}
+.parr-followers{
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    height: 50px;
+    width: 120px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.subscriber{
+    border: none;
+  height: 160px;
+  width: 250px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.num-subscriber{
+    font-size: 80px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(150, 146, 113);
+}
+.parr-subscriber{
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    height: 50px;
+    width: 120px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.desc{
+    border: none;
+    height: 60px;
+    width: 250px;
+    padding: 0 25px;
+    position: absolute;
+    bottom: 40%;
+    left: 30px;
+}
+.head{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parr-desc{
+    font-size: 10px;
+    line-height: 1.6;
+}
+.comments{
+    border: none;
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    bottom: 40%;
+    left: 52%;
+}
+.num-comments{
+    font-size: 80px;
+    color: rgb(150, 146, 113);
+    font-weight: lighter;
+    
+}
+.parr-comments{
+    border: none;
+    font-size: 10px;
+    height: 50px;
+    width: 250px;
+}
+.live{
+    border: none;
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    bottom: 20%;
+    left: 52%;
+}
+.num-live{
+    font-size: 80px;
+    color: rgb(150, 146, 113);
+    font-weight: lighter;
+}
+.parr-live{
+    border: none;
+    font-size: 10px;
+    height: 50px;
+    width: 250px;
+}
